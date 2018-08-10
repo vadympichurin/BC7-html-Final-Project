@@ -1,0 +1,12 @@
+/*
+   Import partials below
+*/
+@import 'normalize';
+@import "fonts";
+@import "settings";
+
+
+.btn {
+  @extend %Button-orange;
+  margin-left: 50px;
+}
