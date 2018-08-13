@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15bb86c0-2c0f-4788-8729-79893be9d2c6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/header-bg-320-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/header-bg-320-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/header-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/sprite/header-facebook.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/sprite/header-menu-icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/sprite/header-twitter.svg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.css" afterPath="$PROJECT_DIR$/build/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.min.css" afterPath="$PROJECT_DIR$/build/css/styles.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fonts/stylesheet.css" afterPath="$PROJECT_DIR$/src/fonts/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/_settings.scss" afterPath="$PROJECT_DIR$/src/scss/_settings.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/normalize.scss" afterPath="$PROJECT_DIR$/src/scss/normalize.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/styles.scss" afterPath="$PROJECT_DIR$/src/scss/styles.scss" />
-    </list>
+    <list default="true" id="15bb86c0-2c0f-4788-8729-79893be9d2c6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -131,12 +116,6 @@
               <item name="BC7-html-Final-Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BC7-html-Final-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BC7-html-Final-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -179,12 +158,12 @@
       <updated>1533894485096</updated>
       <workItem from="1533894486544" duration="7867000" />
       <workItem from="1533910738963" duration="12473000" />
-      <workItem from="1534145637930" duration="1137000" />
+      <workItem from="1534145637930" duration="1311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21477000" />
+    <option name="totallyTimeSpent" value="21651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
