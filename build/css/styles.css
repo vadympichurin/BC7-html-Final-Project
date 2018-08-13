@@ -12,6 +12,19 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -37,7 +50,6 @@ body {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -401,29 +413,4 @@ template {
   src: url("../fonts/Acrom-Medium.ttf") format("truetype");
   font-style: normal;
   font-weight: 500;
-}
-
-.btn {
-  font-family: 'Acrom', sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.btn {
-  padding: 20px 30px;
-  background-color: #ff6b08;
-  color: #fff;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  box-shadow: 0 14px 21px 0 rgba(196, 87, 15, 0.26);
-  border: none;
-  letter-spacing: 2px;
-}
-
-.header__wrapper {
-  background-image: url(../img/header-bg-320-1.jpg), url(../img/header-bg-320-2.png);
-}
-
-.btn {
-  margin-left: 50px;
 }
