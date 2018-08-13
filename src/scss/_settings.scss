@@ -63,7 +63,7 @@ $black: #000;
 
 @mixin font ($color, $f-sz, $t-trans) {
   color: $color;
-  font-size: ($f-sz /16) + rem;
+  font-size: $f-sz;
   text-transform: $t-trans;
 }
 
@@ -78,7 +78,8 @@ $black: #000;
 }
 
 @mixin flex ($f-dir, $j-cont, $a-items) {
-  flex-flow: $f-dir wrap;
+  display: flex;
+  flex-flow: $f-dir;
   justify-content: $j-cont;
   align-items: $a-items;
 }

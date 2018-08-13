@@ -1,12 +1,6 @@
-/*
-   Import partials below
-*/
+
 @import 'normalize';
 @import "fonts";
 @import "settings";
+@import "section2";
 
-
-.btn {
-  @extend %Button-orange;
-  margin-left: 50px;
-}
