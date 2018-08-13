@@ -420,6 +420,10 @@ template {
   letter-spacing: 2px;
 }
 
+.header__wrapper {
+  background-image: url(../img/header-bg-320-1.jpg), url(../img/header-bg-320-2.png);
+}
+
 .btn {
   margin-left: 50px;
 }
