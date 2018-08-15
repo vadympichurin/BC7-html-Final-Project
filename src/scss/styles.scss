@@ -1,6 +1,16 @@
 /*
    Import partials below
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 @import 'normalize';
 @import "fonts";
 @import "settings";
+@import "section1";
+
+
+
