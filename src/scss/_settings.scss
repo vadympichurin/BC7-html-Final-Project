@@ -79,9 +79,9 @@ $black: #000;
   letter-spacing: 2px;
 }
 
-@mixin flex ($f-dir, $j-cont, $a-items) {
+@mixin flex1 ($f-dir, $j-cont, $a-items) {
   display: flex;
-  flex-flow: $f-dir;
+  flex-direction: $f-dir;
   justify-content: $j-cont;
   align-items: $a-items;
 }

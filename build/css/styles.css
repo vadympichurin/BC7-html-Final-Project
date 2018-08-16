@@ -397,7 +397,8 @@ template {
 .facts__dry--text,
 .first__main-info--title,
 .items__title--blueBG,
-.second__main-text {
+.second__main-text,
+.second__main-title {
   font-family: 'Acrom', sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -435,14 +436,14 @@ template {
 .facts {
   margin: auto;
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
 
 .facts__dry {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -483,14 +484,14 @@ template {
 .facts__items {
   width: 288px;
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .row {
   display: flex;
-  flex-flow: row;
+  flex-direction: row;
   justify-content: center;
   align-items: flex-start;
 }
@@ -507,7 +508,7 @@ template {
 
 .items {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   padding-left: 10px;
@@ -550,7 +551,7 @@ template {
 
 .first {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -574,6 +575,7 @@ template {
 }
 
 .first__main-info {
+  width: 288px;
   margin-bottom: 30px;
 }
 
@@ -599,7 +601,7 @@ template {
 
 .second {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -640,7 +642,7 @@ template {
 
 .help-bx {
   display: flex;
-  flex-flow: row;
+  flex-direction: row;
   justify-content: center;
   align-items: flex-start;
   margin-bottom: 11px;
@@ -648,7 +650,7 @@ template {
 
 .help-bx2 {
   display: flex;
-  flex-flow: row;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   width: 288px;
@@ -709,7 +711,8 @@ template {
 .facts__dry--text,
 .first__main-info--title,
 .items__title--blueBG,
-.second__main-text {
+.second__main-text,
+.second__main-title {
   font-family: 'Acrom', sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -763,7 +766,7 @@ template {
 
   .row {
     display: flex;
-    flex-flow: row;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     width: 400px;

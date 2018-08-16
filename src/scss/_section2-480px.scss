@@ -22,7 +22,7 @@
     }
      
     .row {
-        @include flex (row, space-between, flex-start);
+        @include flex1 (row, space-between, flex-start);
         width: 400px;
     }
 

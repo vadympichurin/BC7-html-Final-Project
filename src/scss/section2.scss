@@ -8,10 +8,10 @@
 .facts {
   margin: auto;
   // width: 288px;
-  @include flex(column, flex-start, center);
+  @include flex1(column, flex-start, center);
 
   &__dry {
-  @include flex (column, center, center);
+  @include flex1 (column, center, center);
 
     &--title {
     @include font ($black, 12px, uppercase);
@@ -52,7 +52,7 @@
 }
 
 .row {
-  @include flex (row, center, flex-start);
+  @include flex1 (row, center, flex-start);
   // width: 265px;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .items {
-  @include flex (column, center, flex-start);
+  @include flex1 (column, center, flex-start);
   padding-left: 10px;
   width: 250px;
 
@@ -103,7 +103,7 @@
 }
 
 .first {
-    @include flex (column, center, center);
+    @include flex1 (column, center, center);
 
   &__img {
   width: 100%;
@@ -123,6 +123,7 @@
     }
 
     &__main-info {
+      width: 288px;
       margin-bottom: 30px;
 
       &--title {
@@ -131,6 +132,7 @@
       }
 
       &--text {
+        
         @include font($black, 10px, none);
         @extend %Acrom-Regular;
         line-height: 1.5;
@@ -146,7 +148,7 @@
 }
 
 .second {
-  @include flex (column, center, center);
+  @include flex1 (column, center, center);
 
   &__main-text {
     @include font($black, 11px, none);
@@ -158,6 +160,7 @@
 
   &__main-title {
     @include font($text-color-white, 13px, uppercase);
+    @extend %Acrom-Bold;
     margin:0 0 3px;
     background: #000;
     padding: 0 3px;
@@ -179,13 +182,13 @@
 }
 
 .help-bx {
-  @include flex(row, center, flex-start);
+  @include flex1(row, center, flex-start);
   margin-bottom: 11px;
 
 }
 
 .help-bx2 {
-  @include flex(row, space-between, flex-start);
+  @include flex1(row, space-between, flex-start);
   width: 288px;
   margin-bottom: 19px;
 
