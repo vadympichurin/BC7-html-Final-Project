@@ -1,9 +1,9 @@
 @media (min-width: 768px) {
 
     .facts {
-        position: relative;
         margin: auto;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: flex-start; 
         align-items: flex-start;     
         width: 650px;
@@ -24,6 +24,7 @@
         letter-spacing: 1px;
         font-size: 25px;
         width: 192px;
+        margin-top: 0;
     }
 
     .black-line {
@@ -31,16 +32,17 @@
     }
 
     .facts__dry--text {
-        font-size: 14px;
+        font-size: 11px;
         width: 140px;
     }
 
     .facts__items {
+        position: relative;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: flex-start;
-        width: 370px;
+        width: 428px;
     }
 
     .items-box, .items {
@@ -81,7 +83,7 @@
     .facts__diag {
         display: block;
         position: absolute;
-        right: -35px;
+        right: -25px;
         bottom: 15px;
         width: 218px;
         height: 110px;
@@ -101,7 +103,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        align-items: flex-start;
+        align-content: flex-start;
         width: 275px;
     }
 
@@ -120,6 +122,10 @@
         width: 320px;
     }
 
+    .help-bx2 {
+        margin-bottom: 33px;
+    }
+
     .sqr {
         width: 300px;
     }
@@ -129,7 +135,7 @@
     }
 
     .first__main-info--title {
-        margin-bottom: 10px;
+        margin:0 0 10px;
         font-size: 12px;
     }
 
@@ -162,7 +168,7 @@
     .second__main-text {
         width: 173px;
         font-size: 12px;
-        margin: 0 0 40px;
+        margin: 0;
     }
 
     .second__title {
@@ -172,10 +178,10 @@
 
     .second__text {
         font-size: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 0;
     }
 
-    .pict {
+    .pictsec2 {
         margin-bottom: 35px;
     }
 

@@ -30,7 +30,7 @@
     }
 
     .facts__items {
-        width: 370px;
+        width: 445px;
     }
 
     .items-box, .items {
@@ -122,6 +122,10 @@
     .before-sqr {
         width: 9px;
         height: 9px;
+        background-color: #000;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .sqr {
@@ -140,7 +144,6 @@
 
     .second__text {
         font-size: 9px;
-        margin-bottom: 28px;
         line-height: 1.5;
     }
 }
