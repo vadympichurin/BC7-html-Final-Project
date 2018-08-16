@@ -1,4 +1,3 @@
-
 $text-color-white: #fff;
 
 $text-color-grey: #afb0b3;
@@ -44,8 +43,8 @@ $black: #000;
 }
 
 %container-768 {
-  width: 640px;
-  margin: auto;
+    width: 640px;
+    margin: auto;
 }
 
 %container-960 {
@@ -63,25 +62,28 @@ $black: #000;
   margin: auto;
 }
 
-@mixin font ($color, $f-sz, $t-trans) {
+@mixin font($color, $f-sz, $t-trans) {
   color: $color;
   font-size: $f-sz;
   text-transform: $t-trans;
 }
 
 %Button-orange {
-  padding: 20px 30px;
+  padding: 30px 20px;
   background-color: $orange;
   @extend %Acrom-ExtraBold;
-  @include font($text-color-white, 12, uppercase);
+  @include font($text-color-white, 8, uppercase);
   box-shadow: 0 14px 21px 0 rgba(196, 87, 15, 0.26);
   border: none;
   letter-spacing: 2px;
 }
 
-@mixin flex ($f-dir, $j-cont, $a-items) {
+
+@mixin flex($f-dir, $j-cont, $a-items) {
   display: flex;
-  flex-flow: $f-dir;
+  flex-flow: $f-dir wrap;
   justify-content: $j-cont;
   align-items: $a-items;
 }
+
+
