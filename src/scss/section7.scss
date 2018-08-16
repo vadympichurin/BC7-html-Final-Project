@@ -1,9 +1,6 @@
 .section7 {
-    // min-width: 320px;
     max-width: 1440px;
     margin: auto;
-    // @extend %container-320;
-    // @include flex;
     padding: 0 1rem;
 }
 
@@ -28,7 +25,6 @@
 .section7-webi {
     display: flex;
     width: 220px;
-
     &::before {
     content: "";
     background-color: black;
@@ -62,17 +58,13 @@
 
 .section7-dev {
     display: flex; 
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 .section7-dev::before {
    content: "";
-//    background-color: $black;
-//    width: 5px;
    height: 5px;
    margin-top: 8px;
-//    margin-left: 28px;
    margin-left: 43px;
    display: list-item;
 }
@@ -80,13 +72,10 @@
 .section7-dev__web {
     @extend %Acrom-ExtraBold;
     text-transform: uppercase;
-    // text-align: center;
     font-size: 10px;
     padding-bottom: 15px;
     padding-left: 10px;
     margin-left: 30px;
-  
-   
 }
 
 .section7-developer__specialist {
@@ -111,7 +100,6 @@
 
 .section7-steps__title {
     display: block;
-    // text-align: center;
     padding-bottom: 15px;
 }
 
@@ -123,8 +111,6 @@
     color: $text-color-white;
     background-color: $black;
     width: 125px;
-    margin-left: 47px;
-    
 }
 
 .section7-steps__start {
@@ -132,7 +118,6 @@
     text-transform: uppercase;
     font-size: 12px;
     color: $black; 
-    
 }
 
 .section7-websites__create {
@@ -172,7 +157,6 @@ color: $black;
    @extend %Acrom-ExtraBold;
    font-size: 9px;
    text-transform: uppercase;
-   
    padding-bottom: 10px;
    padding-top: 8px;
    padding-left: 8px;
@@ -183,7 +167,6 @@ color: $black;
     font-size: 9px;
     line-height: 1.5;
     padding-left: 10px;
-    // width: 160px;
 }
 
 .section7-icon {
@@ -213,7 +196,6 @@ color: $black;
   @extend %Acrom-ExtraBold;
   font-size: 9px;
   text-transform: uppercase;
-//   width: 160px;
   padding-left: 5px;
   padding-bottom: 21px;
 }
@@ -239,7 +221,6 @@ color: $black;
   @extend %Acrom-ExtraBold;
   font-size: 9px;
   text-transform: uppercase;
-//   width: 200px;
   padding-top: 3px;
   padding-left: 10px;
   padding-bottom: 10px;
@@ -258,12 +239,7 @@ color: $black;
     width: 260px;
 }
 
-// .section7-img {
-//     padding-top: 3px;
-// }
-
 .section7-about__text {
-    // width: 230px;
     @extend %Acrom-Medium;
     font-size: 10px;
     color: $orange;
@@ -274,7 +250,6 @@ color: $black;
     .section7 { 
         margin: auto;
         padding: 0 1rem;
-      
     }
 
     .section7-web {
@@ -283,8 +258,6 @@ color: $black;
 
     .section7-web__development {
         font-size: 18px;
-       
-       
     }
 
     .section7-webi {
@@ -317,10 +290,8 @@ color: $black;
     }
 
     .section7-dev::before {
-            margin-top: 11px;
+        margin-top: 11px;
     }
-
-    
 
     .section7-steps__simple {
         font-size: 18px;
@@ -339,9 +310,9 @@ color: $black;
     .section7-websites {
         width: 280px;
     }
+
     .section7-websites__create {
         font-size: 13px;
-        // width: 250px;
     }
 
     .section7-tasks {
@@ -373,12 +344,6 @@ color: $black;
     display: flex;
     flex-wrap: wrap;
   }
-//   .section7-web {
-//           display: flex;
-//         //   width: 670px;
-//           justify-content: space-between;
-//       }
-
 
 .section7-web {
     display: flex;
@@ -387,7 +352,6 @@ color: $black;
 
       .section7-picture {
               display: flex;
-            //   width: 300px;
              justify-content: flex-start;
           }
 
@@ -414,16 +378,8 @@ color: $black;
           }
 
             .section7-webi::before {
-                // display: flex;
                 width: 27px;
                 margin-top: 28px;
-            
-                // &::before {
-                // content: "";
-                // background-color: black;
-                // height: 2px;
-                // width: 13px;
-                // margin-top: 15px;
             }
 
             .section7-developer {
@@ -439,7 +395,6 @@ color: $black;
             }
 
             .section7-dev::before {
-                // margin-left: px;
                 width: 7px;
                 height: 7px;
             
@@ -450,8 +405,6 @@ color: $black;
                 font-size: 9px;
                width: 135px;
                margin-left: 20px;
-                
-        
             }
 
             .section7-developer__specialist {
@@ -462,17 +415,11 @@ color: $black;
             .section7-bypictures {
                position: relative;
                top: -20%;
-            //    left: 50%;
-
             }
 
             .section7-steps {
                 width: 280px;
             }
-
-            // .section7-websites {
-            //     width: 240px;
-            // }
 
             .section7-websites__create {
                 width: 130px;
@@ -492,7 +439,6 @@ color: $black;
 
             .section7-steps {
                 background-position-x: 110%;
-    
             }
 
             .section7-tasks {
@@ -500,14 +446,11 @@ color: $black;
                 flex-direction: row;
                 flex-wrap: wrap;
                 width: 270px;
-                // height: 180px;
-
             }
 
             .section7-install__title, .section7-web-terms__title, .section7-toknow__title, .section7-connect__title {
                     font-size: 9px;
                     width: 90px;
-                    
             }
 
             .section7-install__programms, .section7-connect__beworking {
@@ -519,26 +462,21 @@ color: $black;
                 padding-bottom: 25px;
             }
 
-
             .section7-terms {
                 padding-top: 5px;
                 padding-bottom: 55px;
-
             }
 
             .section7-connect__title {
-              padding-bottom: 5px;
-                
+              padding-bottom: 5px;                
             }
 
             .section7-connect {
                 margin-bottom: 20px;
             }
 
-            .section7-final {
-                
+            .section7-final {               
                 width: 260px;
-                // display: flex;
                 margin-right: 40px;
             }
 
@@ -546,22 +484,7 @@ color: $black;
                 font-size: 9px;
                 width: 240px;
             }
-            // .section7-install__title {
-            //     // padding-bottom: 10px;
-            // }
-
-        //   .section7-between {
-        //       width: 270px;
-        //   }
-
-        //   .section7-web__development {
-        //         //   margin-left: 40px;
-        //           font-size: 27px;
-        //           @extend %Acrom-ExtraBold;
-        //           padding-bottom: 27px;
-        //         //   width: 230px;
-        //       }
-
+    
 }
 
 
@@ -574,6 +497,7 @@ color: $black;
     .section7-dev__web {
         font-size: 11px;
     }
+
 .section7-developer__specialist {
     font-size: 9px;
     width: 195px;
@@ -586,12 +510,7 @@ color: $black;
 
 .section7-webi__posibility {
     font-size: 11px;
-    // padding-bottom: 50px;
 }
-
-// .section7-steps__title {
-//     font-size: 33px;
-// }
 
 .section7-websites__create {
     font-size: 11px;
@@ -610,10 +529,8 @@ color: $black;
 .section7-steps {
     background-position-x: 74%;
     padding-top: 125px;
-    // padding-left: 70px;
     width: 340px;
     margin-left: 70px;
-
 }
 
 .section7-tasks {
@@ -621,8 +538,6 @@ color: $black;
     flex-direction: row;
     flex-wrap: wrap;
     width: 370px;
-    // height: 180px;
-
 }
 
 .section7-developer {
@@ -631,8 +546,7 @@ color: $black;
 
 .section7-bypictures {
     position: relative;
-    top: 0%;
-    
+    top: 0%;   
 }
 
 .section7-steps__simple, .section7-steps__start {
@@ -640,9 +554,6 @@ color: $black;
     text-align: left;
     display: inline;
     margin-left: 0;
-   
-    // width: 240px;
-    // margin-left: 24px;
 }
 
 .section7-steps__start {
@@ -670,10 +581,6 @@ color: $black;
     margin-top: -8%;
 }
 
-// .section7-elements {
-//     width: 154px;
-// }
-
 }
 
 @media (min-width: 1200px) {
@@ -690,7 +597,6 @@ color: $black;
 
 .section7-steps {
     width: 277px;
-    // margin-right: 10px;
 }
 .section7-tasks {
     width: 356px;
@@ -716,24 +622,3 @@ color: $black;
     
 }
 
-
-
-//   
-
-//   
-
-//   
-
-// //   .section7-webi {
-// //       width: 320px;
-// //   }
-
-// //   .section7-between {
-// //       width: 320px;
-// //   }
-
-//   .section7-webi::before {
-//       content: "";
-//       width: 28px;
-//       height: 4px;
-//   }
