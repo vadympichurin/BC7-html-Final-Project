@@ -2,6 +2,8 @@ $text-color-white: #fff;
 
 $text-color-grey: #afb0b3;
 
+$text-color-darck-grey: #3f4144;
+
 $orange: #ff6b08;
 
 $blue: #16ebfe;
@@ -79,6 +81,13 @@ $black: #000;
 @mixin flex($f-dir, $j-cont, $a-items) {
   display: flex;
   flex-flow: $f-dir wrap;
+  justify-content: $j-cont;
+  align-items: $a-items;
+}
+
+@mixin flex1($f-dir, $j-cont, $a-items) {
+  display: flex;
+  flex-direction: $f-dir;
   justify-content: $j-cont;
   align-items: $a-items;
 }
