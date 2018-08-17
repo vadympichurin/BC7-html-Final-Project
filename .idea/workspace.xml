@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15bb86c0-2c0f-4788-8729-79893be9d2c6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/Section5_hard_768_2X_.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/section10(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/section10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Section5_hard_768_2X_.png" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Section5_hard_768_2X.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/img/Section5_hard_960_2X.png" afterPath="$PROJECT_DIR$/build/img/Section5_hard_960_2X.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -214,7 +219,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51865000" />
+    <option name="totallyTimeSpent" value="51911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
