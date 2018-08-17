@@ -12,6 +12,19 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -37,7 +50,6 @@ body {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -403,27 +415,327 @@ template {
   font-weight: 500;
 }
 
-.btn {
+.section4__article--text {
+  font-family: 'Acrom', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section4__success-story--text {
+  font-family: 'Acrom', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.section4__success-story--title,
+.section4__article--photo-desc {
   font-family: 'Acrom', sans-serif;
   font-weight: 800;
   font-style: normal;
 }
 
-.btn {
-  padding: 20px 30px;
-  background-color: #ff6b08;
-  color: #fff;
+.section4 {
+  margin: auto;
+  padding: 20px 10px 15px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4__success-story--title {
+  width: 130px;
+  line-height: 1.333;
+  margin: auto;
+  color: #000;
   font-size: 0.75rem;
   text-transform: uppercase;
-  box-shadow: 0 14px 21px 0 rgba(196, 87, 15, 0.26);
+  margin-bottom: 28px;
+}
+
+.section4__success-story--text {
+  width: 170px;
+  line-height: 1.444;
+  margin: auto;
+  color: black;
+  font-size: 0.5625rem;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.section4__success-story--text-bold {
+  background-color: #000;
+  color: #fff;
+}
+
+.section4__success-story--main {
+  margin: auto;
+  width: 196px;
+  display: flex;
+  align-content: space-between;
+}
+
+.section4__succes-story--dash {
+  width: 13px;
+  height: 2px;
+  background-color: #000;
+  margin-top: 9px;
+}
+
+.section4__wrapper--forarticle {
+  width: 196px;
+  position: relative;
+}
+
+.section4__article {
+  overflow: scroll;
+  margin: auto;
+  width: 196px;
+  box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.section4__article--photo-w-desc {
+  width: 35px;
+  display: block;
+}
+
+.section4__article--photo-desc {
+  color: black;
+  font-size: 0.25rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.section4__article--text {
+  width: 110px;
+  color: black;
+  font-size: 0.25rem;
+  text-transform: capitalize;
+  line-height: 1.714;
+}
+
+.section4-buttons {
+  font-size: 0;
+  position: absolute;
+  right: 0px;
+}
+
+.section4-btn-left {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
   border: none;
-  letter-spacing: 2px;
+  margin-right: 1px;
+  background-image: url(../img/arrow1.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.header__wrapper {
-  background-image: url(../img/header-bg-320-1.jpg), url(../img/header-bg-320-2.png);
+.section4-btn-right {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border: none;
+  background-image: url(../img/arrow2.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.btn {
-  margin-left: 50px;
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-button {
+  background-color: #666;
+}
+
+.section4__article--photo-w-desc {
+  width: 55px;
+}
+
+@media screen and (min-width: 480px) {
+  .section4 {
+    width: 294px;
+  }
+
+  .section4__success-story--main {
+    width: 292px;
+  }
+
+  .section4__success-story--title {
+    width: 175px;
+    font-style: 18px;
+  }
+
+  .section4__success-story--text {
+    width: 290px;
+    font-style: 13.5px;
+    text-align: center;
+  }
+
+  .section4__wrapper--forarticle {
+    width: 292px;
+  }
+
+  .section4__article {
+    width: 292px;
+    display: flex;
+  }
+
+  .section4__article--text {
+    width: 170px;
+    font-style: 6px;
+    line-height: 1.714;
+  }
+
+  .section4__article--photo-desc {
+    font-style: 6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section4 {
+    display: flex;
+    width: 635px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .section4__success-story {
+    width: 165px;
+  }
+
+  .section4__success-story--main {
+    width: 175px;
+  }
+
+  .section4__wrapper--forarticle {
+    width: 420px;
+  }
+
+  .section4__article {
+    width: 420px;
+    display: flex;
+  }
+
+  .section4__success-story--title {
+    width: 140px;
+    font-size: 23px;
+  }
+
+  .section4__success-story--text {
+    width: 115px;
+    font-size: 9px;
+  }
+
+  .section4__article--text {
+    width: 240px;
+    font-size: 8px;
+    line-height: 1.714;
+  }
+
+  .section4__article--photo-desc {
+    font-size: 7px;
+  }
+}
+
+@media (min-width: 960px) {
+  .section4 {
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .section4__success-story {
+    width: 210px;
+  }
+
+  .section4__success-story--main {
+    width: 210px;
+  }
+
+  .section4__wrapper--forarticle {
+    width: 520px;
+  }
+
+  .section4__article {
+    width: 520px;
+    display: flex;
+  }
+
+  .section4__success-story--title {
+    width: 210px;
+    font-size: 34px;
+  }
+
+  .section4__success-story--text {
+    width: 140px;
+    font-size: 11px;
+  }
+
+  .section4__article--text {
+    width: 300px;
+    font-size: 10px;
+    line-height: 1.714;
+  }
+
+  .section4__article--photo-desc {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section4 {
+    display: flex;
+    width: 660px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .section4__success-story {
+    width: 195px;
+  }
+
+  .section4__wrapper--forarticle {
+    width: 475px;
+  }
+
+  .section4__article {
+    width: 475px;
+    display: flex;
+  }
+
+  .section4__success-story--title {
+    font-size: 29px;
+  }
+
+  .section4__success-story--text {
+    font-size: 11px;
+  }
+
+  .section4__article--text {
+    width: 266px;
+    font-size: 10px;
+    line-height: 1.714;
+  }
+
+  .section4__article--photo-w-desc {
+    width: 90px;
+  }
+
+  .section4__article--photo-desc {
+    font-size: 9px;
+  }
+
+  .section4__article--photo-container {
+    display: block;
+    width: 70px;
+  }
 }
