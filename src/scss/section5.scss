@@ -18,7 +18,7 @@
   text-transform: uppercase;
   font-size: 12px;
   line-height: 16px;
-  @extend %Acrom-Bold; 
+  @extend %Acrom-ExtraBold;
 }
 
 .description-holder__main-subtitle {
@@ -53,7 +53,7 @@
   width: 202px;
 }
 
-.info-list__item{
+.info-list__item {
   width: 203px;
 }
 
@@ -63,7 +63,7 @@
   @extend %Acrom-ExtraBold;
   text-transform: uppercase;
   font-size: 8px;
-  color: rgba(0, 0, 0, 255);  
+  color: rgba(0, 0, 0, 255);
 }
 
 .item__description-title:before {
@@ -124,12 +124,12 @@
     font-size: 13px;
     line-height: 21px;
   }
-  
+
   .item__description-content {
     width: 301px;
     font-size: 13px;
     line-height: 21px;
-    color: rgb(63,65,68);
+    color: rgb(63, 65, 68);
   }
 
   .info-list__item {
@@ -161,9 +161,9 @@
     margin-right: 72px;
     width: 222px;
     height: 412px;
-    background-image: url("/img/Section5_hard_768_2X.png");
+    background-image: url("../img/Section5_hard_768_2X_.png");
     background-size: 99px 396px;
-    background-position: 100% 0%;
+    background-position: 100% 0;
   }
 
   .section5__description-holder {
@@ -179,7 +179,7 @@
     line-height: 34px;
   }
 
-  .description-holder__main-subtitle{
+  .description-holder__main-subtitle {
     margin-left: 0;
     padding-left: 43px;
     margin-right: 0;
@@ -194,7 +194,7 @@
     height: 4px;
   }
 
-  .item__description-title{
+  .item__description-title {
     margin-left: 0;
     width: 208px;
     font-size: 9px;
@@ -217,7 +217,7 @@
     margin-left: 0;
     font-size: 8px;
     line-height: 12px;
-    color: rgb(63,65,68);
+    color: rgb(63, 65, 68);
   }
 }
 
@@ -234,7 +234,7 @@
     margin-right: 83px;
     width: 274px;
     height: 515px;
-    background-image: url("/img/Section5_hard_960_2X.png");
+    background-image: url("../img/Section5_hard_960_2X.png");
     background-size: contain;
   }
 
@@ -246,7 +246,7 @@
   .description-holder__main-title {
     width: 365px;
     font-size: 27px;
-    line-height: 34px;
+    //line-height: 34px;
     line-height: 42px;
     font-weight: 700;
   }
@@ -274,11 +274,11 @@
     margin-left: 0;
   }
 
-  .description-holder__info-list{
+  .description-holder__info-list {
     margin-right: 0;
     margin-left: 0;
     padding-left: 35px;
- 
+
   }
 
   .item__description-title:before {
@@ -310,14 +310,14 @@
     margin-right: 76px;
     width: 295px;
     height: 540px;
-    background-image: url("/img/Section5_hard_1200_1X.png");
+    background-image: url("../img/Section5_hard_1200_1X.png");
     background-size: 110px 460px;
   }
 
   .description-holder__main-title {
     width: 329px;
     font-size: 30px;
-    line-height: 38px;    
+    line-height: 38px;
     font-weight: 700;
   }
 
@@ -328,7 +328,7 @@
     margin-left: 0;
     margin-right: 0;
     padding-left: 52px;
-    
+
   }
 
   .description-holder__main-subtitle:before {
@@ -388,18 +388,18 @@
     margin-right: 90px;
     width: 353px;
     height: 563px;
-    background-image: url("/img/Section5_hard_1440_1X.png");
+    background-image: url("../img/Section5_hard_1440_1X.png");
     background-size: contain;
   }
 
   .description-holder__main-title {
     width: 393px;
     font-size: 36px;
-    line-height: 45px;    
+    line-height: 45px;
     font-weight: 700;
   }
 
-  .description-holder__main-subtitle{
+  .description-holder__main-subtitle {
     margin-left: 0;
     margin-right: 0;
     padding-left: 58px;
@@ -423,7 +423,7 @@
     font-weight: 800;
   }
 
-  .description-holder__info-list{
+  .description-holder__info-list {
     margin-left: 0;
     padding-left: 38px;
     margin-right: 0;

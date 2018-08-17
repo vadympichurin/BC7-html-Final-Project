@@ -178,7 +178,7 @@
   }
 
   &__text {
-    @include font($text-color-darck-grey, 9, none);
+    @include font($text-color-grey, 9, none);
     @extend %Acrom-Regular;
     margin: 0;
     text-align: justify;
