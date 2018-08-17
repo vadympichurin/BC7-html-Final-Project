@@ -1,6 +1,6 @@
 .section13 {
   width: 320px;
-  padding: 0 1rem;
+  padding: 0 16px;
   @include flex(column, space-between, center);
   text-align: center;
   margin: auto;
@@ -50,7 +50,7 @@
 .section13-mainarticle_textin {
   display: block;
   width: 100%; /*170px*/
-  padding-left: 1.25rem;
+  padding-left: 20px;
   margin: auto;
 }
 
@@ -86,7 +86,7 @@
   text-align: left;
   @extend %Acrom-ExtraBold;
   @include font(#ffffff, 9, uppercase);
-  line-height: .75rem; /*20px*/
+  line-height: 12px; /*20px*/
 }
 
 .section13-backgr-black {
@@ -186,7 +186,7 @@ i {
   @extend %Acrom-Medium;
   @include font(#000000, 11, none);
   text-align: left;
-  line-height: 1.25rem;
+  line-height: 20px;
   font-weight: bold;
 }
 
@@ -241,3 +241,4 @@ i {
 //  left: 0;
 //}
 
+@import "media";
