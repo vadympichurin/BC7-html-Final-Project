@@ -83,9 +83,3 @@ $black: #000;
   align-items: $a-items;
 }
 
-@mixin flex1($f-dir, $j-cont, $a-items) {
-  display: flex;
-  flex-direction: $f-dir;
-  justify-content: $j-cont;
-  align-items: $a-items;
-}
