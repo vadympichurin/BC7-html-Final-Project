@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+
+    .section14 {
+        padding: 25px 15.6rem 120px;    
+    }
+
+    .sec14bonus__title {
+        font-size: 30px;
+    }
+
+    .sec14MOVE__title {
+        font-size: 30px;
+        margin-bottom: 15px;
+
+            &:last-child {
+                margin-bottom: 33px;
+            }
+    }
+
+    
+    .sec14MOVE__text {
+        margin-bottom: 47px;
+
+        &::before {
+            left: -40px;
+        }
+    }
+
+    .sec14MOVE::before {
+        left: 200px;
+    }
+}

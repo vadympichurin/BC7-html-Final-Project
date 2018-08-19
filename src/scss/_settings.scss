@@ -65,7 +65,7 @@ $black: #000;
 
 @mixin font ($color, $f-sz, $t-trans) {
   color: $color;
-  font-size: $f-sz;
+  font-size: ($f-sz /16) + rem;
   text-transform: $t-trans;
 }
 
@@ -77,6 +77,15 @@ $black: #000;
   box-shadow: 0 14px 21px 0 rgba(196, 87, 15, 0.26);
   border: none;
   letter-spacing: 2px;
+}
+
+%Button-orange-320 {
+  padding: 8px 20px;
+  background-color: $orange;
+  @extend %Acrom-ExtraBold;
+  @include font($text-color-white, 8, uppercase);
+  box-shadow: 0 14px 21px 0 rgba(196, 87, 15, 0.26);
+  border: none;
 }
 
 @mixin flex1 ($f-dir, $j-cont, $a-items) {
