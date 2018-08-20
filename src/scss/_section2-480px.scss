@@ -25,6 +25,11 @@
     width: 400px;
   }
 
+  .orange {
+    width: 8px;
+    height: 8px;
+  }
+
   .items__title--blueBG {
     font-size: 13.5px;
     font-family: 'Acrom', sans-serif;
@@ -33,6 +38,25 @@
 
   .items__text {
     font-size: 13.5px;
+  }
+
+  .section2__img {
+    width: 100%;
+    height: auto;
+  }
+
+  .first {
+    width: 448px;
+  }
+
+  .pictsec2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .first__main {
+    margin-bottom: 30px;
   }
 
   .first__main-title {
@@ -46,6 +70,8 @@
 
   .first__main-info--title, .first__main-info--text {
     font-size: 13.5px;
+    margin-bottom: 15px;
+    width: 427px;
   }
 
   .first__main-info--text {
@@ -58,12 +84,12 @@
 
   .row-box {
     width: 290px;
+    margin-bottom: 45px;
   }
 
   .second__main-text {
     width: 260px;
     font-size: 13.5px;
-    margin-bottom: 43px;
   }
 
   .help-bx2 {

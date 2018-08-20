@@ -6,15 +6,15 @@
 
 .facts {
   margin: auto;
-  //width: 288px;
   @include flex1 (column, flex-start, center);
 
   &__dry {
     @include flex1 (column, center, center);
 
     &--title {
-      @include font ($black, 12px, uppercase);
+      @include font ($black, 12, uppercase);
       @extend %Acrom-ExtraBold;
+      margin-bottom: 25px;
     }
   }
 }
@@ -52,13 +52,12 @@
 
 .row {
   @include flex1 (row, center, flex-start);
-  // width: 265px;
 }
 
 .orange {
   margin-top: 10px;
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   background: $orange;
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,12 +70,12 @@
   width: 250px;
 
   &__title {
-    @include font (#000, 25, uppercase);
+    @include font (#000, 16, uppercase);
     @extend %Acrom-ExtraBold;
     margin: 0 0 7px;
 
     &--small {
-      @include font (#000, 15, uppercase);
+      @include font (#000, 10, uppercase);
       @extend %Acrom-ExtraBold;
     }
 
@@ -105,6 +104,11 @@
   padding: 0 1rem;
 }
 
+.section2__img {
+  width: 100%;
+  height: auto;
+}
+
 .first {
   @include flex1 (column, center, center);
   width: 288px;
@@ -115,6 +119,7 @@
   }
 
   &__main {
+    margin-bottom: 20px;
     padding: 0 50px;
   }
 
@@ -146,9 +151,17 @@
   }
 }
 
+.pictsec2 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
 .items__title--blueBG {
   @include font($black, 10, none);
   @extend %Acrom-Bold;
+  display: inline-block;
+  margin-bottom: 0;
 
 }
 
@@ -189,14 +202,12 @@
 .help-bx {
   @include flex1 (row, center, flex-start);
   margin-bottom: 11px;
-
 }
 
 .help-bx2 {
   @include flex1 (row, space-between, flex-start);
   width: 288px;
   margin-bottom: 19px;
-
 }
 
 .sqr {
@@ -218,12 +229,6 @@
   display: inline-block;
 }
 
-.pictsec2 {
-  margin-bottom: 10px;
-}
-
-@import "fonts";
-@import "settings";
 @import "section2-480px";
 @import "section2-768px";
 @import "section2-960px";

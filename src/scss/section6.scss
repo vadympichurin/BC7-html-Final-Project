@@ -1,8 +1,8 @@
 .section6 {
   max-width: 1440px;
   margin: auto;
-  @include flex(column wrap, center, center);
-  padding: 0 1rem;
+  @include flex(column, center, center);
+  padding: 25px 1rem;
 }
 
 .section6-before::before {
@@ -11,22 +11,27 @@
   width: 13px;
   height: 2px;
   background-color: #000000;
-  margin-bottom: 45px;
+  margin-bottom: 0;
   margin-right: 10px;
+  //vertical-align: top;
+  position: relative;
+  top: -20px;
 }
 
 .section6-card__title {
-  @extend %Acrom-Bold;
+  @extend %Acrom-ExtraBold;
   font-size: 12px;
   letter-spacing: 1px;
   color: black;
   width: 150px;
-  padding-left: 50px;
+  //padding-left: 50px;
   text-transform: uppercase;
+  margin-left: 35px;
 }
 
 .section6-before {
   @include flex(row, center, center);
+  margin: 10px 0 20px;
 }
 
 .section6-card__p {
@@ -34,12 +39,12 @@
   font-size: 9px;
   color: #3f4144;
   line-height: 1.5;
-  padding-top: 12px;
+  //padding-top: 12px;
   width: 250px;
 }
 
 .section6-card__p--right {
-  margin-bottom: 24px;
+  //margin-bottom: 24px;
 }
 
 .section6-card__title--black {
@@ -48,7 +53,9 @@
   text-transform: uppercase;
   color: white;
   display: inline-block;
-  padding-top: 10px;
+  //padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .section6-card__part1 {
@@ -61,23 +68,29 @@
 
 .section6-card__subtitle {
   @extend %Acrom-Bold;
-  padding-top: 13px;
+  //padding-top: 13px;
   font-size: 9px;
   letter-spacing: 0.5px;
   line-height: 1.5;
 }
 
 .section6-card__box--center {
-  padding-bottom: 30px;
+  //padding-bottom: 30px;
   width: 275px;
   margin-left: auto;
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .section6-card__text {
   @extend %Acrom-Regular;
   font-size: 9px;
   color: #3f4144;
-  padding-top: 13px;
+  //padding-top: 13px;
+  margin-top: 13px;
   letter-spacing: 0.5px;
   line-height: 1.5;
 }
@@ -94,15 +107,19 @@
 .section6-card__text--invisible{
   display: none;
 }
+
 .text--invisible{
   display: none;
 }
+
 .section6-card__span{
   display: inline;
 }
+
 .section6-card__second{
   width: 200px;
 }
+
 @import "sectoin6_480.scss";
 @import "section6_768.scss";
 @import "section6_960.scss";

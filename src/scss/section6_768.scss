@@ -2,14 +2,17 @@
   .section6{
     width: 640px;
     margin: auto;
+    padding: 50px 0;
   }
+
   .section6-card {
     margin: auto;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    //justify-content: space-between;
     width: 100%;
   }
+
   .section6-card__photo{
     padding-top: 10px;
   }
@@ -19,59 +22,78 @@
     padding-top: 0;
     font-size: 8px;
   }
+
   .section6-card__photo {
     width: 275px;
   }
+
   .section6-card__title {
     font-size: 27px;
     letter-spacing: 0.3px;
     color: black;
-    width: 180px;
+    width: 200px;
     padding-left: 0;
   }
+
   .section6-before{
     width: 210px;
+    margin-top: 25px;
   }
+
   .section6-before::before {
     width: 26px;
     margin-top: 25px;
   }
+
   .section6-card__box--center {
     width: 305px;
     display: flex;
     flex-direction: row;
-    padding-bottom: 28px;
+    padding-bottom: 0;
   }
+
   .section6-card__photo--order{
     order: -1;
-    height: 80px;
+    height: 240px;
+    margin-top: 20px;
   }
+
   .section6-card__p--right{
     width: 150px;
     font-size: 9px;
-    margin-bottom: 40px;
+    margin-bottom: 0;
   }
+
   .section6-card__title--black {
     font-size: 9px;
     padding-top: 0;
     width: 120px;
-
+    margin: 0;
   }
+
   .section6-card__subtitle {
     font-size: 9px;
     padding: 0 0 15px;
     width: 174px;
   }
+
   .section6-card__second{
     width: 120px;}
 
   .section6-card__text--invisible{
     display: inline-block;
   }
+
   .section6-card__span{
     display: block;
   }
+
   .text--invisible{
     display: inline;
   }
+  //. section6-card__box--apsolute{
+  //  position: absolute;
+  //  top: 100px;
+  //  left:100px;
+  //}
 }

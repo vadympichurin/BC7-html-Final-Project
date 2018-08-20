@@ -1,5 +1,5 @@
 .container {
-  @extend %container-320;
+  padding: 0 1rem;
 }
 
 .section-1 {
@@ -7,7 +7,7 @@
   @include flex(column, center, center);
   background-image: url(../img/YOU.png);
   background-repeat: no-repeat;
-  background-position: 0px 200px;
+  background-position: 0 200px;
 }
 
 .section1__start-it {

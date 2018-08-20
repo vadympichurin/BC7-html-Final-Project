@@ -1,4 +1,8 @@
 @media (min-width: 1200px) {
+  .section2 {
+    padding: 60px 0;
+  }
+
   .facts {
     width: 710px;
   }
@@ -63,7 +67,7 @@
   }
 
   .first {
-    width: 306px;
+    width: 310px;
   }
 
   .first__main {
@@ -73,7 +77,7 @@
 
   .first__main-info {
     margin-bottom: 0;
-    width: 183px;
+    width: 180px;
   }
 
   .first__main-title {
@@ -83,12 +87,14 @@
   .first__main-info--title {
     margin-bottom: 10px;
     font-size: 14px;
+    width: 180px;
   }
 
   .first__main-info--text {
     line-height: 1.5;
     margin-bottom: 0;
     font-size: 9px;
+    width: 180px;
   }
 
   .items__title--blueBG {

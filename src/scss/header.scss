@@ -241,6 +241,7 @@
 
   .header__btn {
     @include font($text-color-white, 12, uppercase);
+    padding: 20px 35px;
   }
 }
 
@@ -408,6 +409,7 @@
   .header__btn {
     @include font($text-color-white, 6.4, uppercase);
     margin-left: 60px;
+    padding: 11px 15px;
   }
 }
 
@@ -536,6 +538,7 @@
   .header__btn {
     @include font($text-color-white, 8, uppercase);
     margin-left: 70px;
+    padding: 13px 20px;
   }
 }
 
@@ -657,6 +660,7 @@
 
   .header__btn {
     @include font($text-color-white, 6.88, uppercase);
+    padding: 12px 20px;
     margin-left: 60px;
   }
 }
@@ -779,5 +783,6 @@
 
   .header__btn {
     @include font($text-color-white, 10, uppercase);
+    padding: 15px 25px;
   }
 }
