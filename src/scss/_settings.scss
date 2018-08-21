@@ -1,6 +1,9 @@
+
 $text-color-white: #fff;
 
 $text-color-grey: #afb0b3;
+
+$text-color-darck-grey: #3f4144;
 
 $orange: #ff6b08;
 
@@ -60,27 +63,29 @@ $black: #000;
   margin: auto;
 }
 
-@mixin font($color, $f-sz, $t-trans) {
+@mixin font ($color, $f-sz, $t-trans) {
   color: $color;
   font-size: ($f-sz /16) + rem;
   text-transform: $t-trans;
 }
 
 %Button-orange {
-  padding: 15px 25px;
+  padding: 20px 30px;
   background-color: $orange;
   @extend %Acrom-ExtraBold;
-  @include font($text-color-white, 8, uppercase);
+  @include font($text-color-white, 12, uppercase);
   box-shadow: 0 14px 21px 0 rgba(196, 87, 15, 0.26);
   border: none;
   letter-spacing: 2px;
 }
 
-@mixin flex($f-dir, $j-cont, $a-items) {
-  display: flex;
-  flex-flow: $f-dir wrap;
-  justify-content: $j-cont;
-  align-items: $a-items;
+%Button-orange-320 {
+  padding: 8px 20px;
+  background-color: $orange;
+  @extend %Acrom-ExtraBold;
+  @include font($text-color-white, 8, uppercase);
+  box-shadow: 0 14px 21px 0 rgba(196, 87, 15, 0.26);
+  border: none;
 }
 
 @mixin flex1 ($f-dir, $j-cont, $a-items) {
@@ -90,3 +95,9 @@ $black: #000;
   align-items: $a-items;
 }
 
+@mixin flex ($f-dir, $j-cont, $a-items) {
+  display: flex;
+  flex-flow: $f-dir wrap;
+  justify-content: $j-cont;
+  align-items: $a-items;
+}
