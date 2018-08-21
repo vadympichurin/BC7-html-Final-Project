@@ -418,8 +418,6 @@ template {
 .section7-steps__simple,
 .section7-steps__start,
 .sub-item,
-.sec11-toptext-blc_h2,
-.section12-card__title,
 .section13-item_title,
 .footer__social--link__span {
   font-family: 'Acrom', sans-serif;
@@ -511,6 +509,8 @@ template {
 .rewards_second h4,
 .rewards_third h4,
 .rewards_fourth h4,
+.sec11-toptext-blc_h2,
+.section12-card__title,
 .section12-list__title,
 .section13-mainarticle_title,
 .section13-article_blacktitle,
@@ -1992,8 +1992,7 @@ template {
 }
 
 .sec11-wrapper-container {
-  max-width: 240px;
-  margin: 1rem auto 0;
+  margin: 1rem 1rem 0;
 }
 
 .sec11-img-blc__layers {
@@ -2041,6 +2040,10 @@ template {
   font-weight: 600;
   margin-bottom: 16px;
   flex: 0 0 70%;
+}
+
+.sec11-toptext-blc__before {
+  width: 235px;
 }
 
 .sec11-toptext-blc__before::before {
@@ -2130,6 +2133,10 @@ template {
   margin-bottom: 20px;
 }
 
+.sec11-container-advant__items:last-child {
+  margin-bottom: 0;
+}
+
 .sec11-container-advant__subtitles {
   font-weight: 700;
   margin-bottom: 10px;
@@ -2147,10 +2154,10 @@ template {
   max-width: 1440px;
   margin: auto;
   display: flex;
-  flex-flow: column wrap wrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  padding: 40px 1rem 0;
+  padding: 40px 1rem 20px;
 }
 
 .section12-card__title {
@@ -2158,14 +2165,21 @@ template {
   margin-bottom: 30px;
   margin-left: 25px;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .section12-card__part1 {
   display: block;
+  width: 180px;
+}
+
+.section12-card__list {
+  margin: auto;
 }
 
 .section12-card__list--part {
   display: flex;
+  margin-bottom: 25px;
 }
 
 .section12-number {
@@ -2181,7 +2195,6 @@ template {
 .section12-list__text {
   color: #3f4144;
   font-size: 9px;
-  margin-bottom: 20px;
   letter-spacing: 0.5px;
   line-height: 1.5;
 }
@@ -2189,22 +2202,15 @@ template {
 .section12-list__title--orange {
   font-size: 9px;
   color: #ff6b08;
-  margin-bottom: 25px;
   display: block;
   letter-spacing: 0.5px;
-  line-height: 1.5;
+  line-height: 28px;
 }
 
 .section12-card__text {
-  padding-bottom: 30px;
-  width: 180px;
-  margin-left: auto;
+  width: 200px;
   text-align: left;
-}
-
-.section12-number__img {
-  width: 15px;
-  height: 15px;
+  margin: auto;
 }
 
 .section12-number:last-child {
@@ -2217,6 +2223,7 @@ template {
   width: 5px;
   height: 5px;
   background-color: #16ebfe;
+  margin-right: 5px;
 }
 
 .section12-number {
@@ -2228,7 +2235,8 @@ template {
 .section12-list__button--orange {
   font-size: 7px;
   display: block;
-  padding: 20px;
+  padding: 15px 20px;
+  margin: auto;
 }
 
 .section12-list__button--orange:hover {
@@ -2241,7 +2249,7 @@ template {
   box-shadow: 0 9px 13px 0 rgba(6, 164, 178, 0.26);
 }
 
-.section12-list__button--orange .section12-card__photo1 {
+.section12-card__photo1 {
   width: auto;
 }
 
@@ -3410,23 +3418,49 @@ i {
     font-size: 0.5rem;
   }
 
+  .sec11-toptext-blc__before {
+    width: 315px;
+  }
+
+  .sec11-container-advant__title {
+    font-size: 12px;
+  }
+
   .sec11-toptext-blc__p,
   .sec11-container-advant__subtitles,
   .sec11-toptext-blc__span {
     font-size: 0.8rem;
   }
 
+  .sec11-img-blc__layers {
+    width: 250px;
+  }
+
+  .sec11-img_layer3 {
+    width: 250px;
+  }
+
   .sec11-wrapper-container {
     max-width: 350px;
+    margin: 25px auto 0;
   }
 
   .sec11-container-advant__text {
     font-size: 0.8rem;
   }
 
+  .section12 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   .section12-card__title {
     font-size: 18px;
     margin-bottom: 45px;
+  }
+
+  .section12-card__part1 {
+    width: 240px;
   }
 
   .section12-list__title {
@@ -3451,7 +3485,6 @@ i {
 
   .section12-list__title--orange {
     font-size: 13.5px;
-    margin-bottom: 25px;
   }
 
   .section12-card__text {
@@ -3460,7 +3493,7 @@ i {
   }
 
   .section12-list__button--orange {
-    padding: 18px 25px;
+    padding: 20px 35px;
     font-size: 11px;
   }
 
@@ -4776,6 +4809,7 @@ i {
 
   .section12 {
     width: 640px;
+    padding: 40px 0 50px;
     margin: auto;
   }
 
@@ -4784,14 +4818,17 @@ i {
   }
 
   .section12-card {
+    width: 640px;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+  }
+
+  .section12-card__part1 {
+    width: 350px;
   }
 
   .section12-card__text {
-    width: 320px;
-    padding-right: 40px;
+    width: 365px;
+    margin: 0;
   }
 
   .section12-card {
@@ -4801,11 +4838,11 @@ i {
   .section12-card__list {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
   }
 
   .section12-card__list--part {
     width: 150px;
+    height: 50px;
   }
 
   .section12-card__title {
@@ -4834,14 +4871,15 @@ i {
   .section12-list__button--orange {
     text-align: right;
     position: relative;
-    top: -50px;
-    left: 170px;
+    top: -40px;
+    left: 60px;
   }
 
   .section12-list__title--orange {
     font-size: 9px;
     margin-bottom: 0;
-    width: 80px;
+    width: 100px;
+    line-height: normal;
   }
 
   .section12-slash {
@@ -6011,10 +6049,21 @@ i {
 
   .sec11-wrapper-container {
     max-width: 800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0;
   }
 
   .sec11-toptext-blc_h2 {
     font-size: 1.7rem;
+  }
+
+  .sec11-img-blc {
+    width: 720px;
+  }
+
+  .sec11-container-advant {
+    max-width: 720px;
   }
 
   .sec11-toptext-blc__p,
@@ -6029,8 +6078,12 @@ i {
 
   .section12 {
     width: 800px;
-    padding: 0;
+    padding: 45px 0 50px;
     margin: auto;
+  }
+
+  .section12-card__part1 {
+    width: 450px;
   }
 
   .section12-card {
@@ -6044,7 +6097,7 @@ i {
   }
 
   .section12-card__text {
-    width: 400px;
+    width: 450px;
   }
 
   .section12-list__title {
@@ -6868,6 +6921,8 @@ i {
 
   .sec11-wrapper-container {
     max-width: 710px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   .sec11-toptext-blc_h2 {
@@ -7669,6 +7724,28 @@ i {
     width: 137px;
   }
 
+  .sec11-wrapper-container {
+    max-width: 855px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .sec11-img-blc {
+    width: 855px;
+  }
+
+  .sec11-container-advant {
+    max-width: 855px;
+  }
+
+  .sec11-toptext-blc_h2 {
+    font-size: 36px;
+  }
+
+  .sec11-toptext-blc__before {
+    width: 420px;
+  }
+
   .sec11-toptext-blc__p,
   .sec11-container-advant__subtitles,
   .sec11-toptext-blc__span {
@@ -7677,6 +7754,10 @@ i {
 
   .sec11-container-advant__text {
     font-size: 0.7rem;
+  }
+
+  .sec11-container-advant__h2 {
+    margin-right: 40px;
   }
 
   .section12 {

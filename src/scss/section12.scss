@@ -1,24 +1,35 @@
 .section12 {
   max-width: 1440px;
   margin: auto;
-  @include flex(column wrap, center, center);
-  padding: 40px 1rem 0;
+  @include flex(column, center, center);
+  padding: 40px 1rem 20px;
 }
 
 .section12-card__title {
-  @extend %Acrom-Bold;
+  @extend %Acrom-ExtraBold;
   font-size: 12px;
   margin-bottom: 30px;
   margin-left: 25px;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
+
+//.section12-card__text {
+//
+//}
 
 .section12-card__part1 {
   display: block;
+  width: 180px;
+}
+
+.section12-card__list {
+  margin: auto;
 }
 
 .section12-card__list--part {
   display: flex;
+  margin-bottom: 25px;
 }
 
 .section12-number {
@@ -30,37 +41,49 @@
   font-size: 9px;
   text-transform: uppercase;
   margin-bottom: 10px;
+
+  //&:last-child {
+  //  margin-bottom: 5px;
+  //}
 }
 
 .section12-list__text {
   color: #3f4144;
   @extend %Acrom-Regular;
   font-size: 9px;
-  margin-bottom: 20px;
+  //margin-bottom: 20px;
   letter-spacing: 0.5px;
   line-height: 1.5;
+}
+
+.section12-list__content {
+  //line-height: 28px;
 }
 
 .section12-list__title--orange {
   @extend %Acrom-Medium;
   font-size: 9px;
   color: $orange;
-  margin-bottom: 25px;
+  //margin-bottom: 25px;
   display: block;
   letter-spacing: 0.5px;
-  line-height: 1.5;
+  line-height: 28px;
 }
 
 .section12-card__text {
-  padding-bottom: 30px;
-  width: 180px;
-  margin-left: auto;
+  //padding-bottom: 30px;
+  width: 200px;
+  //margin-left: auto;
   text-align: left;
+  margin: auto;
 }
 
 .section12-number__img {
-  width: 15px;
-  height: 15px;
+  //width: 15px;
+  //height: auto;
+  //height: 15px;
+  //width: auto;
+
 }
 
 .section12-number:last-child {
@@ -73,6 +96,7 @@
   width: 5px;
   height: 5px;
   background-color: #16ebfe;
+  margin-right: 5px;
 }
 
 .section12-number {
@@ -85,90 +109,128 @@
   @extend %Button-orange;
   font-size: 7px;
   display: block;
-  padding: 20px;
+  padding: 15px 20px;
+  margin: auto;
 
   &:hover {
     background-color: rgb(23, 236, 255);
     box-shadow: 0 9px 13px 0 rgba(23, 236, 255, 0.26);
-      }
+  }
 
   &:active {
     background-color: rgb(6, 164, 178);
     box-shadow: 0 9px 13px 0 rgba(6, 164, 178, 0.26);
-     }
-  .section12-card__photo1 {
-    width: auto;
-
   }
+}
+
+.section12-card__photo1 {
+  width: auto;
 }
 
 .section12-card__photo {
   display: none;
 }
 
+
+//!!!!!MEDIA 480!!!!
+
 @media (min-width: 480px) {
+  .section12 {
+    //padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   .section12-card__title {
     font-size: 18px;
     margin-bottom: 45px;
-    }
+  }
+
+  .section12-card__part1 {
+    width: 240px;
+  }
+
   .section12-list__title {
     font-size: 13.5px;
     margin-bottom: 13px;
   }
+
   .section12-list__text {
     font-size: 13.5px;
     margin-bottom: 30px;
   }
+
   .section12-number__img {
     width: 23px;
     height: 23px;
   }
+
   .section12-number__after::after {
     width: 7px;
     height: 7px;
   }
+
   .section12-list__title--orange {
     font-size: 13.5px;
-    margin-bottom: 25px;
+    //margin-bottom: 25px;
   }
+
   .section12-card__text {
     padding-bottom: 30px;
     width: 275px;
   }
+
   .section12-list__button--orange {
-    padding: 18px 25px;
+    padding: 20px 35px;
     font-size: 11px;
   }
 }
 
+//!!!!!MEDIA 768!!!!
+
 @media (min-width: 768px) {
   .section12 {
     width: 640px;
+    padding: 40px 0 50px;
     margin: auto;
   }
 
   .section12-card__photo {
     display: block;
   }
+
+  //.section12-card {
+  //  display: flex;
+  //  justify-content: space-between;
+  //  width: 640px;
+  //}
+
   .section12-card {
+    width: 640px;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
   }
+
+  .section12-card__part1 {
+    width: 350px;
+  }
+
   .section12-card__text {
-    width: 320px;
-    padding-right: 40px;
+    width: 365px;
+    margin: 0;
+    //padding-right: 40px;
   }
+
   .section12-card {
     width: auto;
   }
   .section12-card__list {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    //justify-content: space-between;
   }
   .section12-card__list--part {
     width: 150px;
+    height: 50px;
   }
   .section12-card__title {
     font-size: 27px;
@@ -183,6 +245,14 @@
     margin-bottom: 10px;
 
   }
+
+  //.section12-card__text {
+  //  padding-bottom: 30px;
+  //  width: 275px;
+  //  margin: 0;
+  //  display: flex;
+  //}
+
   .section12-list__text {
     font-size: 8px;
   }
@@ -193,13 +263,14 @@
   .section12-list__button--orange {
     text-align: right;
     position: relative;
-    top: -50px;
-    left: 170px;
+    top: -40px;
+    left: 60px;
   }
   .section12-list__title--orange {
     font-size: 9px;
     margin-bottom: 0;
-    width: 80px;
+    width: 100px;
+    line-height: normal;
   }
   .section12-slash {
     margin-right: 0;
@@ -209,12 +280,19 @@
   }
 }
 
+//!!!!!!!MEDIA 960!!!!!
+
 @media (min-width: 960px) {
   .section12 {
     width: 800px;
-    padding: 0;
+    padding: 45px 0 50px;
     margin: auto;
   }
+
+  .section12-card__part1 {
+    width: 450px;
+  }
+
   .section12-card {
     width: 100%;
   }
@@ -224,7 +302,7 @@
     margin-bottom: 65px;
   }
   .section12-card__text {
-    width: 400px;
+    width: 450px;
   }
   .section12-list__title {
     font-size: 11px;
