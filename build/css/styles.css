@@ -5756,18 +5756,48 @@ i {
     padding: 40px 0 40px;
   }
 
+  .section7-web {
+    width: 800px;
+  }
+
   .section7-dev__web {
     font-size: 11px;
+  }
+
+  .section7-dev {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .section7-dev::before {
+    width: 7px;
+    height: 7px;
+    padding-left: 0;
+    margin-left: 18px;
+  }
+
+  .section7-dev__web {
+    margin-top: 20px;
+    font-size: 9px;
+    width: 135px;
+    margin-left: 0;
+    padding-left: 0;
   }
 
   .section7-developer__specialist {
     font-size: 9px;
     width: 195px;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 0;
   }
 
   .section7-web__development {
     font-size: 33px;
-    width: 335px;
+    width: 375px;
   }
 
   .section7-webi__posibility {
@@ -5779,10 +5809,6 @@ i {
     width: 150px;
   }
 
-  .section7-steps {
-    width: 400px;
-  }
-
   .section7-steps__title {
     font-size: 33px;
     width: 240px;
@@ -5790,9 +5816,8 @@ i {
 
   .section7-steps {
     background-position-x: 74%;
-    padding-top: 125px;
     width: 340px;
-    margin-left: 70px;
+    margin: 100px 0 0;
   }
 
   .section7-tasks {
@@ -5804,6 +5829,7 @@ i {
 
   .section7-developer {
     padding-top: 0;
+    width: 800px;
   }
 
   .section7-bypictures {
@@ -5844,8 +5870,6 @@ i {
 
   .section7-final {
     width: 260px;
-    margin-right: 110px;
-    margin-top: -8%;
   }
 
   .section8 {
@@ -6811,16 +6835,21 @@ i {
   .section7 {
     width: 710px;
     margin: auto;
+    padding: 50px 0 40px;
+  }
+
+  .section7-pic {
+    width: 345px;
   }
 
   .section7-bypictures {
     position: relative;
     top: 5%;
-    left: 9%;
+    width: 345px;
   }
 
   .section7-steps {
-    width: 277px;
+    width: 350px;
   }
 
   .section7-tasks {
@@ -7555,12 +7584,22 @@ i {
   }
 
   .section7-between {
-    width: 350px;
+    width: 375px;
+  }
+
+  .section7-webi {
+    width: 375px;
+    margin: 0;
   }
 
   .section7 {
     width: 855px;
     margin: auto;
+  }
+
+  .section7-web__title {
+    width: 375px;
+    margin: 0;
   }
 
   .section7-dev {
@@ -7569,11 +7608,11 @@ i {
 
   .section7-developer {
     width: 100%;
+    justify-content: space-between;
   }
 
   .section7-steps {
-    width: 358px;
-    padding-left: 50px;
+    width: 495px;
   }
 
   .section8 {
