@@ -1,7 +1,7 @@
 .section7 {
   max-width: 1440px;
   margin: auto;
-  padding: 0 1rem;
+  padding: 0 1rem 15px;
 }
 
 .section7-web {
@@ -14,7 +14,7 @@
   }
 
   &__development {
-    @extend %Acrom-Bold;
+    @extend %Acrom-ExtraBold;
     text-transform: uppercase;
     font-size: 12px;
     display: block;
@@ -83,10 +83,12 @@
   @extend %Acrom-Regular;
   font-size: 9px;
   text-align: left;
-  width: 180px;
-  padding-left: 30px;
+  width: 200px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  //padding-left: 30px;
   line-height: 1.5;
-  padding-bottom: 30px;
+  //padding-bottom: 30px;
   color: #3f4144;
 }
 
@@ -102,6 +104,7 @@
 .section7-steps__title {
   display: block;
   padding-bottom: 15px;
+  //margin: auto;
 }
 
 .section7-steps__simple {
@@ -112,13 +115,18 @@
   color: $text-color-white;
   background-color: $black;
   width: 125px;
+  margin: 0 auto 5px;
+
 }
 
 .section7-steps__start {
+  display: block;
   @extend %Acrom-Bold;
   text-transform: uppercase;
   font-size: 12px;
   color: $black;
+  margin: auto;
+  width: 125px;
 }
 
 .section7-websites__create {
@@ -247,10 +255,12 @@
   line-height: 1.5;
 }
 
+//!!!!MEDIA 480!!!!!
+
 @media (min-width: 480px) {
   .section7 {
     margin: auto;
-    padding: 0 1rem;
+    padding: 0 1rem 25px;
   }
 
   .section7-web {
@@ -260,6 +270,33 @@
   .section7-web__development {
     font-size: 18px;
   }
+
+  .section7-developer {
+    width: 448px;
+    //margin: auto;
+    //padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section7-developer__photo {
+    width: 100%;
+    height: auto;
+    //padding-bottom: 18px;
+  }
+
+  .section7-pic {
+    width: 448px;
+    height: auto;
+  }
+
+  //.section7-dev {
+  //  //display: flex;
+  //  //flex-direction: column;
+  //  //margin: auto;
+  //  //align-items: center;
+  //}
 
   .section7-webi {
     width: 270px;
@@ -297,11 +334,14 @@
   .section7-steps__simple {
     font-size: 18px;
     width: 180px;
-    margin-left: 5px;
+    //margin-left: 5px;
+    margin: 0;
   }
 
   .section7-steps__start {
     font-size: 18px;
+    width: 180px;
+    margin: 0;
   }
 
   .section7-steps {
@@ -339,12 +379,15 @@
   }
 }
 
+//!!!!MEDIA 768!!!!!
+
 @media (min-width: 768px) {
   .section7 {
     width: 640px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    padding: 50px 0 35px;
   }
 
   .section7-web {
@@ -366,9 +409,16 @@
     letter-spacing: 1px;
   }
 
+  .section7-web__development {
+    font-size: 27px;
+    width: 306px;
+  }
+
   .section7-webi__posibility {
-    width: 240px;
-    padding-top: 20px;
+    width: 250px;
+    //padding-top: 20px;
+    padding: 0;
+    margin: 20px 0 0 12px;
   }
 
   .section7-webi {
@@ -421,7 +471,18 @@
 
   .section7-steps {
     width: 280px;
+    height: 200px;
+    margin: 100px auto 0;
+    background-image: url("../img/Untitled-61.png");
+    background-repeat: no-repeat;
+    background-position-x: -10%;
+    background-size: contain;
   }
+
+
+  //.section7-steps {
+  //  width: 280px;
+  //}
 
   .section7-websites__create {
     width: 130px;
@@ -445,8 +506,11 @@
   .section7-tasks {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 270px;
+    width: 290px;
+    height: 200px;
+    margin: 100px 0 0;
   }
 
   .section7-install__title, .section7-web-terms__title, .section7-toknow__title, .section7-connect__title {
@@ -487,10 +551,13 @@
   }
 }
 
+//!!!!!MEDIA 960!!!!
+
 @media (min-width: 960px) {
   .section7 {
     width: 800px;
     margin: auto;
+    padding: 40px 0 40px;
   }
 
   .section7-dev__web {
