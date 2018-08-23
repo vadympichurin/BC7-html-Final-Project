@@ -90,3 +90,11 @@ $black: #000;
   align-items: $a-items;
 }
 
+%Button-orange-320 {
+  padding: 8px 20px;
+  background-color: $orange;
+  @extend %Acrom-ExtraBold;
+  @include font($text-color-white, 8, uppercase);
+  box-shadow: 0 14px 21px 0 rgba(196, 87, 15, 0.26);
+  border: none;
+}
