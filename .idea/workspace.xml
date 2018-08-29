@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15bb86c0-2c0f-4788-8729-79893be9d2c6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.css" afterPath="$PROJECT_DIR$/build/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.min.css" afterPath="$PROJECT_DIR$/build/css/styles.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/section10.html" afterPath="$PROJECT_DIR$/src/html/section10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/section6.html" afterPath="$PROJECT_DIR$/src/html/section6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/_settings.scss" afterPath="$PROJECT_DIR$/src/scss/_settings.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/section10.scss" afterPath="$PROJECT_DIR$/src/scss/section10.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/section6.scss" afterPath="$PROJECT_DIR$/src/scss/section6.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/section6_1200.scss" afterPath="$PROJECT_DIR$/src/scss/section6_1200.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/section6_1440.scss" afterPath="$PROJECT_DIR$/src/scss/section6_1440.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/section6_768.scss" afterPath="$PROJECT_DIR$/src/scss/section6_768.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/section6_960.scss" afterPath="$PROJECT_DIR$/src/scss/section6_960.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/styles.scss" afterPath="$PROJECT_DIR$/src/scss/styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/section12.html" afterPath="$PROJECT_DIR$/src/html/section12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/section12.scss" afterPath="$PROJECT_DIR$/src/scss/section12.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -119,10 +109,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="816" />
-    <option name="height" value="576" />
+    <option name="x" value="591" />
+    <option name="width" value="578" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -231,7 +220,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26022306" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
